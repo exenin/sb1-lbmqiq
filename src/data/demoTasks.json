@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "stage": "SETUP",
+    "subStage": "Start with Problems",
+    "task": "Identify Problems and Trends",
+    "owner": "John Doe",
+    "startWeek": 1,
+    "endWeek": 1,
+    "status": "completed",
+    "progress": 100,
+    "dependencies": [],
+    "notes": "Market research completed, identified 3 key trends",
+    "delayDays": 0
+  },
+  {
+    "id": 2,
+    "stage": "SETUP",
+    "subStage": "Start with Problems",
+    "task": "Evaluate Problems and Trends",
+    "owner": "Jane Smith",
+    "startWeek": 1,
+    "endWeek": 1,
+    "status": "in-progress",
+    "progress": 60,
+    "dependencies": [1],
+    "notes": "Analysis in progress",
+    "delayDays": 0
+  }
+]
